@@ -1,3 +1,5 @@
 pytest_basic/
 __pycache__/
 .pytest_cache/
+
+reports/*.xml
