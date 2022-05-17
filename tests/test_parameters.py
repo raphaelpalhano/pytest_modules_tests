@@ -18,6 +18,7 @@ listValues = [
     ]
 
 # decorator for select quantity element into tuple
+
 @pytest.mark.parametrize('a, b, c, d, e', listValues)
 def test_sum_ten_numbers(a, b, c, d, e, calculation):
     calculation.addValues(a,b,c,d)
